@@ -31,7 +31,7 @@ export default function UserCenterPage() {
             const data = await res.json();
             setResponse('Payment processed successfully!');
         } catch (error) {
-            setResponse(`Payment Failed, Please try agian later.`);
+            setResponse(`Payment Failed, Please try again later.`);
         } finally {
             setLoading(false);
         }
